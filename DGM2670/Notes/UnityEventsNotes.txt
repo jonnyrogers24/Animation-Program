@@ -1,0 +1,17 @@
+UNITY EVENTS
+-Events are data types
+-Event can modify anything that has a function, object or a variable
+-UnityEvent can call any of those
+-UnityEvent can do anything as long as its called to do something
+
+-function()
+	{
+	//Do Work
+	Character.Move(); 
+	}
+-public class Unity Event
+	{
+	Invoke(){
+		//whatever you want it to do
+		{
+	}
