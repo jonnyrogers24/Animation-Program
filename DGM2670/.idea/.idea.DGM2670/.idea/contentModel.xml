@@ -6,6 +6,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="CharacterMovement.cs" t="Include" />
           <e p="EventBasedBehaviour" t="Include">
             <e p="DestroyEvent.cs" t="Include" />
             <e p="DisableEvent.cs" t="Include" />
@@ -14,6 +15,8 @@
             <e p="UpdateEvent.cs" t="Include" />
           </e>
           <e p="EventScript.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
+          <e p="FloatInput.cs" t="Include" />
           <e p="NewEvent.cs" t="Include" />
         </e>
       </e>
