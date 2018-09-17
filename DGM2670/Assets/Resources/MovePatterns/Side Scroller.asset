@@ -11,11 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae0f047ef886664a95bbae7a0112fa4, type: 3}
   m_Name: Side Scroller
   m_EditorClassIdentifier: 
-  jumpSpeed: {fileID: 11400000, guid: 79d30f1124c46644096f290aa0d9c762, type: 2}
-  gravity: {fileID: 11400000, guid: 90506fbd128335f4e9077d3842639f99, type: 2}
-  MoveX: {fileID: 11400000, guid: 4e19e1b4daf1b9d41a88819d03db4594, type: 2}
+  gravity: {fileID: 11400000, guid: 187a720467b9455449209382441aa468, type: 2}
+  MoveX: {fileID: 11400000, guid: 23095b1edeb87de42bdd12cc735bc74c, type: 2}
   MoveY: {fileID: 11400000, guid: 79d30f1124c46644096f290aa0d9c762, type: 2}
-  MoveZ: {fileID: 11400000, guid: 79d30f1124c46644096f290aa0d9c762, type: 2}
+  MoveZ: {fileID: 11400000, guid: 2ed1e4d80674e214d8eb64340abc7064, type: 2}
   RotX: {fileID: 11400000, guid: 79d30f1124c46644096f290aa0d9c762, type: 2}
-  RotY: {fileID: 11400000, guid: 4e19e1b4daf1b9d41a88819d03db4594, type: 2}
+  RotY: {fileID: 11400000, guid: 79d30f1124c46644096f290aa0d9c762, type: 2}
   RotZ: {fileID: 11400000, guid: 79d30f1124c46644096f290aa0d9c762, type: 2}

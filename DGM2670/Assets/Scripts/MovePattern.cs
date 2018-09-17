@@ -18,19 +18,19 @@ public class MovePattern : ScriptableObject
     {
         if (controller.isGrounded)
         {
-            Move(transform);
+            MoveT(transform);
         }
 
-        Move(controller);
+        MoveC(controller);
     }
 
-    protected void Move(CharacterController controller)
+    protected void MoveC(CharacterController controller)
     {
         moveDirection.y -= gravity.Value * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
     }
 
-    private void Move(Transform transform)
+    protected void MoveT(Transform transform)
     {
         moveDirection.Set(MoveX.Value, MoveY.Value, MoveZ.Value);
         rotDirection.Set(RotX.Value, RotY.Value, RotZ.Value);

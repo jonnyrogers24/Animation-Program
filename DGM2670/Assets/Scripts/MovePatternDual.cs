@@ -11,19 +11,19 @@ public class MovePatternDual : MovePattern
 	{
 		if (controller.isGrounded)
 		{
-			Move(transform);
+			MoveT(transform);
 			doubleJump = true; 
 		}
 		else
 		{
 			if (doubleJump)
 			{
-				Move(transform);
+				MoveT(transform);
 				doubleJump = false; 
 			}
 		}
 		
-		Move(controller);
+		MoveC(controller);
 	}
 
 }
