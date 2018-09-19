@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0205cb8957891b44b142689caa23987, type: 3}
   m_Name: RecorderWindowSettings
   m_EditorClassIdentifier: 
-  m_Settings: {fileID: 0}
+  m_Settings: {fileID: 114602404820063574}
 --- !u!114 &114525577973925662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25,13 +25,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
   m_Id: 5bd214a5-9ffe-4dfd-b497-255cbe0b854a
-  m_OutputSize: 720
+  m_OutputSize: 0
   m_AspectRatio: 0
   m_ForceEvenSize: 0
   source: 1
   m_CameraTag: 
-  m_FlipFinalOutput: 0
-  m_AllowTransparency: 0
+  m_FlipFinalOutput: 1
+  m_AllowTransparency: 1
   m_CaptureUI: 0
 --- !u!114 &114602404820063574
 MonoBehaviour:
@@ -58,12 +58,12 @@ MonoBehaviour:
   m_BaseFileName:
     m_Pattern: image_<0000>.<ext>
   m_DestinationPath:
-    m_root: 1
-    m_leaf: Recordings
+    m_root: 0
+    m_leaf: C:/Users/10805383/Documents/Animation-Program/DGM2210/Models/Samarai_Sword
   m_InputsSettings:
     m_InputsSettingsAssets:
     - {fileID: 114525577973925662}
     ownerRecorderSettingsAssetId: 598e5db1db76432408c0da7ce7dcb62b
   m_RecorderTypeName: UnityEngine.Recorder.ImageRecorder, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  m_OutputFormat: 1
+  m_OutputFormat: 0
