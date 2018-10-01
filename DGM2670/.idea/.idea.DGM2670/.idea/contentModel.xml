@@ -19,9 +19,11 @@
             </e>
           </e>
         </e>
+        <e p="ObjectID.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AIAgent.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
+          <e p="Draggable.cs" t="Include" />
           <e p="EventBasedBehaviour" t="Include">
             <e p="DestroyEvent.cs" t="Include" />
             <e p="DisableEvent.cs" t="Include" />
@@ -37,7 +39,9 @@
           <e p="MovePattern.cs" t="Include" />
           <e p="MovePatternDual.cs" t="Include" />
           <e p="MovePatternNotGrounded.cs" t="Include" />
+          <e p="NameID.cs" t="Include" />
           <e p="RunCountdown.cs" t="Include" />
+          <e p="TriggerID.cs" t="Include" />
         </e>
       </e>
       <e p="DGM2670.sln" t="IncludeFlat" />
