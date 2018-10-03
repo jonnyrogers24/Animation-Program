@@ -23,6 +23,9 @@
         <e p="Scripts" t="Include">
           <e p="AIAgent.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
+          <e p="Coloring" t="Include">
+            <e p="ChangeColor.cs" t="Include" />
+          </e>
           <e p="Draggable.cs" t="Include" />
           <e p="EventBasedBehaviour" t="Include">
             <e p="DestroyEvent.cs" t="Include" />
@@ -36,12 +39,15 @@
           <e p="FloatData.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
           <e p="ForEachLoops.cs" t="Include" />
+          <e p="MatchID.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="MovePatternDual.cs" t="Include" />
           <e p="MovePatternNotGrounded.cs" t="Include" />
           <e p="NameID.cs" t="Include" />
+          <e p="Objects" t="Include">
+            <e p="ColorData.cs" t="Include" />
+          </e>
           <e p="RunCountdown.cs" t="Include" />
-          <e p="TriggerID.cs" t="Include" />
         </e>
       </e>
       <e p="DGM2670.sln" t="IncludeFlat" />

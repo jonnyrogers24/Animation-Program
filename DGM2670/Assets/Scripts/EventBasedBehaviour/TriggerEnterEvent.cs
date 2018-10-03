@@ -5,14 +5,10 @@ using UnityEngine.Events;
 
 public class TriggerEnterEvent : MonoBehaviour
 {
-
-	public UnityEvent Event
-		;
+	public UnityEvent Event;
 
 	private void OnTriggerEnter(Collider other)
 	{
-		
-		Event.Invoke();
-		
+		Event.Invoke();	
 	}
 }
