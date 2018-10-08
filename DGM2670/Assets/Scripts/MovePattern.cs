@@ -26,7 +26,7 @@ public class MovePattern : ScriptableObject
 
     protected void MoveC(CharacterController controller)
     {
-        moveDirection.y -= gravity.Value * Time.deltaTime;
+        moveDirection.y = gravity.Value;
         controller.Move(moveDirection * Time.deltaTime);
     }
 

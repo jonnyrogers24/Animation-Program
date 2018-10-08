@@ -189,12 +189,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b3dbb99b7841ba0418fd1ffe54b9cefc, type: 3}
+  m_Sprite: {fileID: 21300052, guid: b3dbb99b7841ba0418fd1ffe54b9cefc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.96, y: 1.01}
+  m_Size: {x: 0.74, y: 0.88}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -305,7 +305,7 @@ GameObject:
   - component: {fileID: 340327992}
   - component: {fileID: 340327991}
   m_Layer: 0
-  m_Name: Letter A (2)
+  m_Name: 'Letter C '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -369,12 +369,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b3dbb99b7841ba0418fd1ffe54b9cefc, type: 3}
+  m_Sprite: {fileID: 21300056, guid: b3dbb99b7841ba0418fd1ffe54b9cefc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.96, y: 1.01}
+  m_Size: {x: 0.68, y: 0.9}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -469,7 +469,7 @@ GameObject:
   - component: {fileID: 702952017}
   - component: {fileID: 702952016}
   m_Layer: 0
-  m_Name: Letter A (1)
+  m_Name: 'Letter B '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -533,12 +533,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b3dbb99b7841ba0418fd1ffe54b9cefc, type: 3}
+  m_Sprite: {fileID: 21300054, guid: b3dbb99b7841ba0418fd1ffe54b9cefc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.96, y: 1.01}
+  m_Size: {x: 0.56, y: 0.9}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -567,7 +567,6 @@ GameObject:
   - component: {fileID: 999135557}
   - component: {fileID: 999135556}
   - component: {fileID: 999135555}
-  - component: {fileID: 999135554}
   - component: {fileID: 999135553}
   m_Layer: 0
   m_Name: Ring A (1)
@@ -588,34 +587,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpriteColor: {fileID: 11400000, guid: 9ac134ea063b4d84ea74b4f923c0415c, type: 2}
---- !u!114 &999135554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 999135552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a09ffea92adbb2046b9351e8b3baa259, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Invoke
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: a64d7da6366e8a24681064e5d6604f98,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: NameID, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!54 &999135555
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -712,7 +683,6 @@ GameObject:
   - component: {fileID: 1235296051}
   - component: {fileID: 1235296050}
   - component: {fileID: 1235296049}
-  - component: {fileID: 1235296048}
   - component: {fileID: 1235296047}
   m_Layer: 0
   m_Name: Ring A (2)
@@ -733,34 +703,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpriteColor: {fileID: 11400000, guid: f810099578b08f44e8c837ee21649b22, type: 2}
---- !u!114 &1235296048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1235296046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a09ffea92adbb2046b9351e8b3baa259, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Invoke
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: a64d7da6366e8a24681064e5d6604f98,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: NameID, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!54 &1235296049
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -857,7 +799,6 @@ GameObject:
   - component: {fileID: 1369096354}
   - component: {fileID: 1369096358}
   - component: {fileID: 1369096356}
-  - component: {fileID: 1369096357}
   - component: {fileID: 1369096359}
   m_Layer: 0
   m_Name: Ring A
@@ -939,34 +880,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1369096357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1369096353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a09ffea92adbb2046b9351e8b3baa259, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Invoke
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: a64d7da6366e8a24681064e5d6604f98,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: NameID, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!65 &1369096358
 BoxCollider:
   m_ObjectHideFlags: 0
