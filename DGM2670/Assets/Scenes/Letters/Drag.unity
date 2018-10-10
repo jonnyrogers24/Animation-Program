@@ -123,7 +123,9 @@ GameObject:
   - component: {fileID: 220675107}
   - component: {fileID: 220675106}
   - component: {fileID: 220675105}
+  - component: {fileID: 220675109}
   - component: {fileID: 220675104}
+  - component: {fileID: 220675108}
   m_Layer: 0
   m_Name: Letter A
   m_TagString: Untagged
@@ -142,6 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f4f744821fce964f998b2c2281d13ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CanDrag: 0
 --- !u!65 &220675105
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -212,6 +215,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &220675108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 220675103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec22896bdb43d8a4e857ac2dd1e4acb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: {fileID: 11400000, guid: a64d7da6366e8a24681064e5d6604f98, type: 2}
+  OnMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: fc4d6debac330d14290c32512192c017, type: 2}
+        m_MethodName: Call
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 220675106}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: a64d7da6366e8a24681064e5d6604f98, type: 2}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &220675109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 220675103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f355ea8f8d1a847afc4920d5405e51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: {fileID: 11400000, guid: 62df7e9e8bd7bfe4b87c400e430b468a, type: 2}
 --- !u!1 &222831778
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,6 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f4f744821fce964f998b2c2281d13ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CanDrag: 0
 --- !u!65 &340327992
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -486,6 +541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f4f744821fce964f998b2c2281d13ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CanDrag: 0
 --- !u!65 &702952017
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -800,6 +856,7 @@ GameObject:
   - component: {fileID: 1369096358}
   - component: {fileID: 1369096356}
   - component: {fileID: 1369096359}
+  - component: {fileID: 1369096357}
   m_Layer: 0
   m_Name: Ring A
   m_TagString: Untagged
@@ -880,6 +937,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1369096357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1369096353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3cb1d66790fbf4f98b213c53ca6e00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &1369096358
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -900,7 +968,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1369096353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ef5bccd47fa39e459770edb128f1c29, type: 3}
+  m_Script: {fileID: 11500000, guid: 01338d670ffe1b24fa2f5c1d6b653f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpriteColor: {fileID: 11400000, guid: 7ba7fbbb99fd67540a500112bb0e4f2a, type: 2}
+  ID: {fileID: 11400000, guid: a64d7da6366e8a24681064e5d6604f98, type: 2}

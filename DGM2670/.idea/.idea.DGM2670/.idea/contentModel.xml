@@ -22,6 +22,7 @@
         <e p="ObjectID.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AIAgent.cs" t="Include" />
+          <e p="ChangeSpriteColor.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="Coloring" t="Include">
             <e p="ChangeColor.cs" t="Include" />
@@ -50,6 +51,8 @@
             <e p="ColorData.cs" t="Include" />
           </e>
           <e p="RunCountdown.cs" t="Include" />
+          <e p="SnapOn.cs" t="Include" />
+          <e p="StartBehaviour.cs" t="Include" />
         </e>
       </e>
       <e p="DGM2670.sln" t="IncludeFlat" />
