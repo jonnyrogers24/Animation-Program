@@ -88,15 +88,16 @@ public class SubmarinePlayer : MonoBehaviour
 	{
 		SetBackgroundColor();
 		
-		Destroy(Instantiate(scoreEffectObj, other.gameObject.transform.position, Quaternion.identity), 0.5f);
+		Destroy(Instantiate(scoreEffectObj, other.gameObject.transform.position, Quaternion.identity), 0.7f);
 		Destroy(other.gameObject.transform.parent.gameObject);
 		gameManager.AddScore();
 	}
 
 	void Dead()
 	{
-		dead = true; 
-			
+		dead = true;
+		StartCoroutine(Camera.main.gameObject.GetComponent<ShakeCamera>().Shake());
+		
 		Destroy(Instantiate(deathEffectObj, transform.position, Quaternion.identity), 0.5f);
 
 		StopPlayer();
