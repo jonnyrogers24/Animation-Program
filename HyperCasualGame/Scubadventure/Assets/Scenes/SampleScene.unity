@@ -252,7 +252,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &473819075
 Transform:
   m_ObjectHideFlags: 0
@@ -689,6 +689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7acc24701808f6e4fba0c087e204ec2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 937071098}
   deathEffectObj: {fileID: 1508871675109824, guid: d2503f7b0c9ca0d499e62198faa3568e,
     type: 2}
   scoreEffectObj: {fileID: 1222657322813322, guid: cc39c588298ace2438bf7271be982f35,
@@ -730,7 +731,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 38423ad09ee5e1d4cb71a977d4d3bf3d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 907fe2757443a9a4f80934443adb60b7, type: 3}
   m_Color: {r: 0.6698113, g: 0.6454306, b: 0.43916875, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -749,7 +750,7 @@ Transform:
   m_GameObject: {fileID: 937071095}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -4, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -887,9 +888,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.10478993, y: 0.20084777}
   serializedVersion: 2
-  m_Radius: 0.49999997
+  m_Radius: 1.1549366
 --- !u!1 &1004280572
 GameObject:
   m_ObjectHideFlags: 0
