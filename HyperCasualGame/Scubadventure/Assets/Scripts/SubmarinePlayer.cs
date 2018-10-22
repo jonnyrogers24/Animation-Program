@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SubmarinePlayer : MonoBehaviour
 {
-
+	public Transform player; 
 	public GameObject deathEffectObj;
 	public GameObject scoreEffectObj; 
 	
@@ -27,10 +27,11 @@ public class SubmarinePlayer : MonoBehaviour
 
 	}
 	
-	void Start () 
-	{	
-		hueValue = Random.Range(0, 10) / 10.0f;
-		SetBackgroundColor();
+	void Start ()
+	{
+		
+	//	hueValue = Random.Range(0, 10) / 10.0f;
+	//	SetBackgroundColor();
 	}
 	
 	void Update ()
@@ -39,7 +40,33 @@ public class SubmarinePlayer : MonoBehaviour
 	
 		MovePlayer();
 		GetInput();
+		
+		if(player.position.x < -1.00f)
+		{
+			
+
+			FlipPlayerRight();
+
+		}
+		else if(player.position.x > 1.00f)
+		{
+			
+
+			FlipPlayerLeft();
+
+		}
 	}
+
+	void FlipPlayerRight()
+	{
+		transform.localScale = new Vector3(-.3f,.3f,.3f);
+	}
+	
+	void FlipPlayerLeft()
+	{
+		transform.localScale = new Vector3(.3f,.3f,.3f);
+	}
+
 
 	void MovePlayer()
 	{
@@ -86,7 +113,7 @@ public class SubmarinePlayer : MonoBehaviour
 
 	void GetBubble(Collider2D other)
 	{
-		SetBackgroundColor();
+		//SetBackgroundColor();
 		
 		Destroy(Instantiate(scoreEffectObj, other.gameObject.transform.position, Quaternion.identity), 0.7f);
 		Destroy(other.gameObject.transform.parent.gameObject);
@@ -111,14 +138,14 @@ public class SubmarinePlayer : MonoBehaviour
 		rb.isKinematic = true; 
 	}
 
-	void SetBackgroundColor()
-	{
-		Camera.main.backgroundColor = Color.HSVToRGB(hueValue, 0.6f, 0.8f);
+	//void SetBackgroundColor()
+	//{
+	//	Camera.main.backgroundColor = Color.HSVToRGB(hueValue, 0.6f, 0.8f);
 
-		hueValue += 0.1f;
-		if (hueValue >= 1)
-		{
-			hueValue = 0;
-		}
-	}
+	//	hueValue += 0.1f;
+	//	if (hueValue >= 1)
+	//	{
+	//		hueValue = 0;
+	//	}
+	//}
 }
