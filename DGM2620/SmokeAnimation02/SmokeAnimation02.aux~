@@ -35,6 +35,25 @@
   <Drawing Key="" Name="88" Version="1"/>
   <Drawing Key="" Name="91" Version="1"/>
   <Drawing Key="" Name="94" Version="1"/>
+  <Drawing Key="" Name="73_1" Version="1"/>
+  <Drawing Key="" Name="76_1" Version="1"/>
+  <Drawing Key="" Name="79_1" Version="1"/>
+  <Drawing Key="" Name="82_1" Version="1"/>
+  <Drawing Key="" Name="85_1" Version="1"/>
+  <Drawing Key="" Name="88_1" Version="1"/>
+  <Drawing Key="" Name="73_2" Version="1"/>
+  <Drawing Key="" Name="76_2" Version="1"/>
+  <Drawing Key="" Name="79_2" Version="1"/>
+  <Drawing Key="" Name="82_2" Version="1"/>
+  <Drawing Key="" Name="85_2" Version="1"/>
+  <Drawing Key="" Name="88_2" Version="1"/>
+  <Drawing Key="" Name="91_1" Version="1"/>
+  <Drawing Key="" Name="94_1" Version="1"/>
+  <Drawing Key="" Name="97" Version="1"/>
+  <Drawing Key="" Name="100" Version="1"/>
+  <Drawing Key="" Name="103" Version="1"/>
+  <Drawing Key="" Name="106" Version="1"/>
+  <Drawing Key="" Name="109" Version="1"/>
  </Element>
  <Element Name="Canister" ID="3" Folder="Canister">
   <Drawing Key="" Name="1" Version="1"/>
@@ -54,4 +73,5 @@
   <Drawing Key="" Name="16" Version="1"/>
   <Drawing Key="" Name="18" Version="1"/>
  </Element>
+ <Element Name="CanisterColor" ID="4" Folder="CanisterColor"/>
 </SceneVersion>

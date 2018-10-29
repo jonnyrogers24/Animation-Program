@@ -7,3 +7,4 @@ Solid    Blue                       0x095638b56e201692   0   0 255 255
 Solid    "Vectorized Line"          0x0000000000000003   0   0   0 255
 Solid    BaseSmoke                  0x095638b56e256470 205 205 205 255
 Solid    Canister                   0x095638b56e264a5b  75  88  40 255
+Solid    "Smoke Detail"             0x0957772078c5cf9f 129 129 129 255
