@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 212212961882119632}
   - component: {fileID: 58470398784750142}
   m_Layer: 0
-  m_Name: Polygon
+  m_Name: Bubble Sprite
   m_TagString: Bubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

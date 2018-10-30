@@ -88,7 +88,7 @@ public class SubmarinePlayer : MonoBehaviour
 		{
 			if (rb.velocity.y > 0)
 			{
-				rb.AddForce(new Vector2(0, -ySpeed));
+				rb.AddForce(new Vector2(0, -ySpeed/2f));
 			}
 			else
 			{
