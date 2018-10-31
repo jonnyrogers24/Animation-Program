@@ -7,36 +7,37 @@ public class EnemyManager : MonoBehaviour
 
 
 	public GameObject Player;
-	public GameObject[] EnemyArr;
+	public GameObject[] EnemiesArr;
 
 	int enemyCount;
 
 	int playerDistanceIndex = -1;
 	int enemyIndex = 0;
-	int distanceToNext = 50;
+	int distanceToNext = 30;
 	
 	
 	void Start ()
 	{
-		enemyCount = EnemyArr.Length; 
+		enemyCount = EnemiesArr.Length; 
 		InstantiateEnemy();
 	}
 	
 	
 	void Update ()
 	{
-		int playerDistance = (int)(Player.transform.position.y / (distanceToNext/2f));
+		int PlayerDistance = (int)(Player.transform.position.y / (distanceToNext/2f));
 
-		if (playerDistanceIndex != playerDistance)
+		if (playerDistanceIndex != PlayerDistance)
 		{
 			InstantiateEnemy();
-			playerDistanceIndex = playerDistance;
+			playerDistanceIndex = PlayerDistance;
 		}
 	}
 
 	public void InstantiateEnemy()
 	{
-		GameObject newEnemy = Instantiate(EnemyArr[0], new Vector3(0, enemyIndex * distanceToNext), Quaternion.identity);
+		int randomInt = Random.Range(0, enemyCount);
+		GameObject newEnemy = Instantiate(EnemiesArr[randomInt], new Vector3(0, enemyIndex * distanceToNext), Quaternion.identity);
 		newEnemy.transform.SetParent(transform);
 		enemyIndex++;
 	}

@@ -6,7 +6,8 @@ public class SubmarinePlayer : MonoBehaviour
 {
 	public Transform player; 
 	public GameObject deathEffectObj;
-	public GameObject scoreEffectObj; 
+	public GameObject scoreEffectObj;
+	public float scrollSpeed = -1.5f; 
 	
 	Rigidbody2D rb; 
 	float angle = 0;
@@ -148,4 +149,8 @@ public class SubmarinePlayer : MonoBehaviour
 	//		hueValue = 0;
 	//	}
 	//}
+	public class instance
+	{
+		public static float scrollSpeed;
+	}
 }
