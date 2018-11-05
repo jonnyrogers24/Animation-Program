@@ -10,3 +10,5 @@ Solid    Canister                   0x095638b56e264a5b  75  88  40 255
 Solid    "Smoke Detail"             0x0957772078c5cf9f 129 129 129 255
 Solid    Ground                     0x0957f88092c57965 168 137  91 255
 Solid    "New 1"                    0x0957f88092c5ff66 155 130  92 255
+Solid    "New 0"                    0x09597b929a820a87 223 110  21 255
+Solid    "New 1"                    0x09597b929a821c76 223 162  20 255
