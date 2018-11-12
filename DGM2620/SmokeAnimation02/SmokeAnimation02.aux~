@@ -121,5 +121,15 @@
  </Element>
  <Element Name="Tank" ID="10" Folder="Tank">
   <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="48" Version="1"/>
+  <Drawing Key="" Name="52" Version="1"/>
+ </Element>
+ <Element Name="TankBlast" ID="12" Folder="TankBlast">
+  <Drawing Key="" Name="47" Version="1"/>
+  <Drawing Key="" Name="48" Version="1"/>
+  <Drawing Key="" Name="49" Version="1"/>
+  <Drawing Key="" Name="50" Version="1"/>
+  <Drawing Key="" Name="51" Version="1"/>
+  <Drawing Key="" Name="52" Version="1"/>
  </Element>
 </SceneVersion>

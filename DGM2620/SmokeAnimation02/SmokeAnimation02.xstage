@@ -166,7 +166,7 @@
     <column type="0" name="BG" displayOrder="7" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-129" val="1" id="1"/>
     </column>
-    <column type="0" name="ATV-095638B56E202365" display="false" displayOrder="2" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-095638B56E202365" displayOrder="2" width="100" anonymous="true" id="2">
      <elementSeq exposures="40-42" val="40_2" id="2"/>
      <elementSeq exposures="43-45" val="43_2" id="2"/>
      <elementSeq exposures="46-48" val="46_1" id="2"/>
@@ -192,7 +192,7 @@
      <elementSeq exposures="106-108" val="106" id="2"/>
      <elementSeq exposures="109-111" val="109" id="2"/>
     </column>
-    <column type="0" name="ATV-095638B56E204190" display="false" displayOrder="3" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-095638B56E204190" displayOrder="3" width="100" anonymous="true" id="3">
      <elementSeq exposures="1-2" val="1" id="3"/>
      <elementSeq exposures="3-4" val="3" id="3"/>
      <elementSeq exposures="5-6" val="5" id="3"/>
@@ -210,7 +210,7 @@
      <elementSeq exposures="26-27" val="29" id="3"/>
      <elementSeq exposures="28-129" val="31" id="3"/>
     </column>
-    <column type="0" name="ATV-0957772078C5CAEB" display="false" displayOrder="1" width="100" anonymous="true" id="8">
+    <column type="0" name="ATV-0957772078C5CAEB" displayOrder="1" width="100" anonymous="true" id="8">
      <elementSeq exposures="43-45" val="43_2" id="8"/>
      <elementSeq exposures="46-48" val="46_2" id="8"/>
      <elementSeq exposures="49-51" val="49_2" id="8"/>
@@ -238,7 +238,7 @@
     <column type="0" name="ATV-0957F88092C59ABB" displayOrder="6" width="100" anonymous="true" id="9">
      <elementSeq exposures="1-111" val="1" id="9"/>
     </column>
-    <column type="0" name="ATV-0957F88092C6243A" display="false" displayOrder="5" width="100" anonymous="true" id="10">
+    <column type="0" name="ATV-0957F88092C6243A" displayOrder="5" width="100" anonymous="true" id="10">
      <elementSeq exposures="1-47" val="1" id="10"/>
      <elementSeq exposures="48-51" val="48" id="10"/>
      <elementSeq exposures="52-111" val="52" id="10"/>
