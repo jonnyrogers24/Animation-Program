@@ -9,11 +9,11 @@ public class EnemyManager : MonoBehaviour
 	public GameObject Player;
 	public GameObject[] EnemiesArr;
 
-	int enemyCount;
+	public int enemyCount;
 
-	int playerDistanceIndex = -1;
-	int enemyIndex = 0;
-	int distanceToNext = 30;
+	public int playerDistanceIndex;
+	public int enemyIndex;
+	public int distanceToNext;
 	
 	
 	void Start ()
@@ -25,12 +25,12 @@ public class EnemyManager : MonoBehaviour
 	
 	void Update ()
 	{
-		int PlayerDistance = (int)(Player.transform.position.y / (distanceToNext/2f));
+		int playerDistance = (int)(Player.transform.position.y / (distanceToNext/2f));
 
-		if (playerDistanceIndex != PlayerDistance)
+		if (playerDistanceIndex != playerDistance)
 		{
 			InstantiateEnemy();
-			playerDistanceIndex = PlayerDistance;
+			playerDistanceIndex = playerDistance;
 		}
 	}
 

@@ -10,6 +10,7 @@
           <e p="CameraFollowPlayer.cs" t="Include" />
           <e p="EnemyManager.cs" t="Include" />
           <e p="EnemyParent.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="Parallaxing.cs" t="Include" />
           <e p="ShakeCamera.cs" t="Include" />
