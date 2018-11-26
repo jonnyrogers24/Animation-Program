@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyManager : MonoBehaviour
+public class EnemyManager : ScriptableObject
 {
 
 
 	public GameObject Player;
 	public GameObject[] EnemiesArr;
+	public Transform transform; 
 
 	int enemyCount;
 
