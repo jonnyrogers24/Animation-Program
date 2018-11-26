@@ -14,15 +14,15 @@
       <file leaf-file-name="EnemyManager.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="405">
+              <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
               <folding>
-                <marker date="1543269240858" expanded="false" signature="6:78" ph="..." />
-                <marker date="1543269240858" expanded="true" signature="121:894" ph="{...}" />
-                <marker date="1543269240858" expanded="true" signature="333:396" ph="{...}" />
-                <marker date="1543269240858" expanded="true" signature="416:621" ph="{...}" />
-                <marker date="1543269240858" expanded="true" signature="546:618" ph="{...}" />
-                <marker date="1543269240858" expanded="true" signature="654:892" ph="{...}" />
+                <marker date="1543269298221" expanded="false" signature="6:78" ph="..." />
+                <marker date="1543269298221" expanded="true" signature="121:876" ph="{...}" />
+                <marker date="1543269298221" expanded="true" signature="315:378" ph="{...}" />
+                <marker date="1543269298221" expanded="true" signature="398:603" ph="{...}" />
+                <marker date="1543269298221" expanded="true" signature="528:600" ph="{...}" />
+                <marker date="1543269298221" expanded="true" signature="636:874" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -167,12 +167,12 @@
       <workItem from="1540957817848" duration="5402000" />
       <workItem from="1541990718840" duration="697000" />
       <workItem from="1543266017370" duration="1025000" />
-      <workItem from="1543267733193" duration="1508000" />
+      <workItem from="1543267733193" duration="1747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31518000" />
+    <option name="totallyTimeSpent" value="31757000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -185,7 +185,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -487,15 +486,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="405">
+          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
           <folding>
-            <marker date="1543269240858" expanded="false" signature="6:78" ph="..." />
-            <marker date="1543269240858" expanded="true" signature="121:894" ph="{...}" />
-            <marker date="1543269240858" expanded="true" signature="333:396" ph="{...}" />
-            <marker date="1543269240858" expanded="true" signature="416:621" ph="{...}" />
-            <marker date="1543269240858" expanded="true" signature="546:618" ph="{...}" />
-            <marker date="1543269240858" expanded="true" signature="654:892" ph="{...}" />
+            <marker date="1543269298221" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543269298221" expanded="true" signature="121:876" ph="{...}" />
+            <marker date="1543269298221" expanded="true" signature="315:378" ph="{...}" />
+            <marker date="1543269298221" expanded="true" signature="398:603" ph="{...}" />
+            <marker date="1543269298221" expanded="true" signature="528:600" ph="{...}" />
+            <marker date="1543269298221" expanded="true" signature="636:874" ph="{...}" />
           </folding>
         </state>
       </provider>
