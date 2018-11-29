@@ -9,11 +9,11 @@ public class EnemyManager : MonoBehaviour
 	public GameObject Player;
 	public GameObject[] EnemiesArr;
 
-	public int enemyCount;
+	private int enemyCount;
 
-	public int playerDistanceIndex;
-	public int enemyIndex;
-	public int distanceToNext;
+	private int playerDistanceIndex = -1;
+	private int enemyIndex = 0;
+	private int distanceToNext = 50;
 	
 	
 	void Start ()
