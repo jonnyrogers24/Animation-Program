@@ -37,7 +37,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1017180518990442}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -4.5, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
@@ -196,6 +196,7 @@ MonoBehaviour:
     type: 2}
   scoreEffectObj: {fileID: 1222657322813322, guid: cc39c588298ace2438bf7271be982f35,
     type: 2}
+  scrollSpeed: -1.5
   xSpeed: 2
   ySpeed: 30
 --- !u!212 &212160244262636080

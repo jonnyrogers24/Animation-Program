@@ -13,6 +13,13 @@ public class RestartGame : MonoBehaviour {
 	public void exitGame()
 
 	{
+		PlayerPrefs.SetInt("MoneyAmount", GameManager.moneyAmount);
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+	
+	}
+
+	public void exitShop()
+	{
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
 	}
 }

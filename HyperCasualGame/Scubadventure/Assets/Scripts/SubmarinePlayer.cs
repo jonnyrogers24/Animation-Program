@@ -119,6 +119,8 @@ public class SubmarinePlayer : MonoBehaviour
 		Destroy(Instantiate(scoreEffectObj, other.gameObject.transform.position, Quaternion.identity), 0.7f);
 		Destroy(other.gameObject.transform.parent.gameObject);
 		gameManager.AddScore();
+		GameManager.moneyAmount += 1;
+		PlayerPrefs.GetInt("MoneyAmount", GameManager.moneyAmount);
 	}
 
 	void Dead()

@@ -8,7 +8,7 @@ public class EnemyParent : MonoBehaviour
 	
 	void Start ()
 	{
-		playerObj = GameObject.Find("Player");
+		playerObj = GameObject.FindGameObjectWithTag("Player");
 		StartCoroutine(CalculateDistanceToPlayer());
 		
 	}

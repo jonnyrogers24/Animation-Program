@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyManager : MonoBehaviour
-{
+public class EnemyManager2 : MonoBehaviour {
 
 
-	public GameObject Player;
+
+	public GameObject NewCraft;
 	public GameObject[] EnemiesArr;
 
 	private int enemyCount;
@@ -25,7 +25,7 @@ public class EnemyManager : MonoBehaviour
 	
 	void Update ()
 	{
-		int playerDistance = (int)(Player.transform.position.y / (distanceToNext/2f));
+		int playerDistance = (int)(NewCraft.transform.position.y / (distanceToNext/2f));
 
 		if (playerDistanceIndex != playerDistance)
 		{
