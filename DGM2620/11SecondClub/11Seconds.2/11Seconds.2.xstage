@@ -20,6 +20,87 @@
     <dwg name="15"/>
     <dwg name="16"/>
     <dwg name="17"/>
+    <dwg name="4_1"/>
+    <dwg name="7_1"/>
+    <dwg name="10_1"/>
+    <dwg name="13_1"/>
+    <dwg name="16_1"/>
+    <dwg name="19"/>
+    <dwg name="22"/>
+    <dwg name="25"/>
+    <dwg name="28"/>
+    <dwg name="31"/>
+    <dwg name="34"/>
+    <dwg name="37"/>
+    <dwg name="37_1"/>
+    <dwg name="40"/>
+    <dwg name="43"/>
+    <dwg name="46"/>
+    <dwg name="49"/>
+    <dwg name="52"/>
+    <dwg name="55"/>
+    <dwg name="58"/>
+    <dwg name="37_2"/>
+    <dwg name="40_1"/>
+    <dwg name="43_1"/>
+    <dwg name="46_1"/>
+    <dwg name="49_1"/>
+    <dwg name="52_1"/>
+    <dwg name="55_1"/>
+    <dwg name="58_1"/>
+    <dwg name="61"/>
+    <dwg name="64"/>
+    <dwg name="67"/>
+    <dwg name="70"/>
+    <dwg name="73"/>
+    <dwg name="76"/>
+    <dwg name="79"/>
+    <dwg name="82"/>
+    <dwg name="85"/>
+    <dwg name="88"/>
+    <dwg name="91"/>
+    <dwg name="94"/>
+    <dwg name="97"/>
+    <dwg name="100"/>
+    <dwg name="103"/>
+    <dwg name="120"/>
+    <dwg name="123"/>
+    <dwg name="126"/>
+    <dwg name="129"/>
+    <dwg name="132"/>
+    <dwg name="135"/>
+    <dwg name="138"/>
+    <dwg name="144"/>
+    <dwg name="147"/>
+    <dwg name="150"/>
+    <dwg name="153"/>
+    <dwg name="156"/>
+    <dwg name="159"/>
+    <dwg name="162"/>
+    <dwg name="165"/>
+    <dwg name="168"/>
+    <dwg name="171"/>
+    <dwg name="174"/>
+    <dwg name="177"/>
+    <dwg name="180"/>
+    <dwg name="183"/>
+    <dwg name="186"/>
+    <dwg name="189"/>
+    <dwg name="192"/>
+    <dwg name="195"/>
+    <dwg name="198"/>
+    <dwg name="201"/>
+    <dwg name="204"/>
+    <dwg name="207"/>
+    <dwg name="210"/>
+    <dwg name="213"/>
+    <dwg name="216"/>
+    <dwg name="219"/>
+    <dwg name="222"/>
+    <dwg name="225"/>
+    <dwg name="225_1"/>
+    <dwg name="228"/>
+    <dwg name="1_1"/>
    </drawings>
   </element>
   <element id="3" elementName="NQJR7319_00000" elementFolder="NQJR7319_00000" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
@@ -560,19 +641,84 @@
   <scene name="Top" id="095f4126488007f7" nbframes="339">
    <columns>
     <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
-     <elementSeq exposures="1-19" val="7" id="1"/>
-     <elementSeq exposures="20-39" val="8" id="1"/>
-     <elementSeq exposures="40-59" val="9" id="1"/>
-     <elementSeq exposures="60-69" val="10" id="1"/>
-     <elementSeq exposures="70-196" val="11" id="1"/>
-     <elementSeq exposures="197-229" val="12" id="1"/>
+     <elementSeq exposures="1-3" val="1_1" id="1"/>
+     <elementSeq exposures="4-6" val="4_1" id="1"/>
+     <elementSeq exposures="7-9" val="7_1" id="1"/>
+     <elementSeq exposures="10-12" val="10_1" id="1"/>
+     <elementSeq exposures="13-15" val="13_1" id="1"/>
+     <elementSeq exposures="16-18" val="16_1" id="1"/>
+     <elementSeq exposures="19-21" val="19" id="1"/>
+     <elementSeq exposures="22-24" val="22" id="1"/>
+     <elementSeq exposures="25-27" val="25" id="1"/>
+     <elementSeq exposures="28-30" val="28" id="1"/>
+     <elementSeq exposures="31-33" val="31" id="1"/>
+     <elementSeq exposures="34-36" val="34" id="1"/>
+     <elementSeq exposures="37-39" val="37_2" id="1"/>
+     <elementSeq exposures="40-42" val="40_1" id="1"/>
+     <elementSeq exposures="43-45" val="43_1" id="1"/>
+     <elementSeq exposures="46-48" val="46_1" id="1"/>
+     <elementSeq exposures="49-51" val="49_1" id="1"/>
+     <elementSeq exposures="52-54" val="52_1" id="1"/>
+     <elementSeq exposures="55-57" val="55_1" id="1"/>
+     <elementSeq exposures="58-60" val="58_1" id="1"/>
+     <elementSeq exposures="61-63" val="61" id="1"/>
+     <elementSeq exposures="64-66" val="64" id="1"/>
+     <elementSeq exposures="67-69" val="67" id="1"/>
+     <elementSeq exposures="70-72" val="70" id="1"/>
+     <elementSeq exposures="73-75" val="73" id="1"/>
+     <elementSeq exposures="76-78" val="76" id="1"/>
+     <elementSeq exposures="79-81" val="79" id="1"/>
+     <elementSeq exposures="82-84" val="82" id="1"/>
+     <elementSeq exposures="85-87" val="85" id="1"/>
+     <elementSeq exposures="88-90" val="88" id="1"/>
+     <elementSeq exposures="91-93" val="91" id="1"/>
+     <elementSeq exposures="94-96" val="94" id="1"/>
+     <elementSeq exposures="97-99" val="97" id="1"/>
+     <elementSeq exposures="100-102" val="100" id="1"/>
+     <elementSeq exposures="103-119" val="103" id="1"/>
+     <elementSeq exposures="120-122" val="120" id="1"/>
+     <elementSeq exposures="123-125" val="123" id="1"/>
+     <elementSeq exposures="126-128" val="126" id="1"/>
+     <elementSeq exposures="129-131" val="129" id="1"/>
+     <elementSeq exposures="132-134" val="132" id="1"/>
+     <elementSeq exposures="135-137" val="135" id="1"/>
+     <elementSeq exposures="138-143" val="138" id="1"/>
+     <elementSeq exposures="144-146" val="144" id="1"/>
+     <elementSeq exposures="147-149" val="147" id="1"/>
+     <elementSeq exposures="150-152" val="150" id="1"/>
+     <elementSeq exposures="153-155" val="153" id="1"/>
+     <elementSeq exposures="156-158" val="156" id="1"/>
+     <elementSeq exposures="159-161" val="159" id="1"/>
+     <elementSeq exposures="162-164" val="162" id="1"/>
+     <elementSeq exposures="165-167" val="165" id="1"/>
+     <elementSeq exposures="168-170" val="168" id="1"/>
+     <elementSeq exposures="171-173" val="171" id="1"/>
+     <elementSeq exposures="174-176" val="174" id="1"/>
+     <elementSeq exposures="177-179" val="177" id="1"/>
+     <elementSeq exposures="180-182" val="180" id="1"/>
+     <elementSeq exposures="183-185" val="183" id="1"/>
+     <elementSeq exposures="186-188" val="186" id="1"/>
+     <elementSeq exposures="189-191" val="189" id="1"/>
+     <elementSeq exposures="192-194" val="192" id="1"/>
+     <elementSeq exposures="195-197" val="195" id="1"/>
+     <elementSeq exposures="198-200" val="198" id="1"/>
+     <elementSeq exposures="201-203" val="201" id="1"/>
+     <elementSeq exposures="204-206" val="204" id="1"/>
+     <elementSeq exposures="207-209" val="207" id="1"/>
+     <elementSeq exposures="210-212" val="210" id="1"/>
+     <elementSeq exposures="213-215" val="213" id="1"/>
+     <elementSeq exposures="216-218" val="216" id="1"/>
+     <elementSeq exposures="219-221" val="219" id="1"/>
+     <elementSeq exposures="222-224" val="222" id="1"/>
+     <elementSeq exposures="225-227" val="225_1" id="1"/>
+     <elementSeq exposures="228" val="228" id="1"/>
      <elementSeq exposures="230-249" val="13" id="1"/>
      <elementSeq exposures="250-281" val="14" id="1"/>
      <elementSeq exposures="282-308" val="15" id="1"/>
      <elementSeq exposures="309-319" val="16" id="1"/>
      <elementSeq exposures="320-330" val="17" id="1"/>
     </column>
-    <column type="0" name="ATV-095F412648827F77" display="false" displayOrder="2" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-095F412648827F77" displayOrder="2" width="100" anonymous="true" id="3">
      <elementSeq exposures="1" val="60" id="3"/>
      <elementSeq exposures="2" val="61" id="3"/>
      <elementSeq exposures="3" val="62" id="3"/>
@@ -1068,7 +1214,6 @@
      </module>
      <module type="READ" name="NQJR7319_00000" pos="0,0,0" publishUnderTab="NQJR7319_00000">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -1275,13 +1420,23 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
+     <module type="FADE" name="Transparency" pos="0,0,0" publishUnderTab="Transparency">
+      <options>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <transparency val="75" defaultValue="50"/>
+      </attrs>
+     </module>
     </nodeslist>
     <linkedlist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
      <link out="Drawing" in="Composite" inport="2"/>
-     <link out="NQJR7319_00000" in="Composite" inport="1"/>
+     <link out="NQJR7319_00000" in="Transparency"/>
      <link out="BG" in="Composite" inport="0"/>
+     <link out="Transparency" in="Composite" inport="1"/>
     </linkedlist>
    </rootgroup>
   </scene>
