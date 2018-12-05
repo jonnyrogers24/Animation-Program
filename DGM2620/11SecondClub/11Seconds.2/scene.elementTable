@@ -3,4 +3,5 @@
  <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="3" elementName="NQJR7319_00000" elementFolder="NQJR7319_00000" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
  <element id="4" elementName="BG" elementFolder="BG" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="12" elementName="Detail" elementFolder="Detail" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
