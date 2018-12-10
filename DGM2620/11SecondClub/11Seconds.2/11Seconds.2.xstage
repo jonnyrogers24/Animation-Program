@@ -664,6 +664,7 @@
     <dwg name="16"/>
     <dwg name="19"/>
     <dwg name="22"/>
+    <dwg name="23"/>
    </drawings>
   </element>
  </elements>
@@ -785,7 +786,7 @@
      <elementSeq exposures="315-317" val="315" id="1"/>
      <elementSeq exposures="318" val="318" id="1"/>
     </column>
-    <column type="0" name="ATV-095F412648827F77" display="false" displayOrder="4" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-095F412648827F77" displayOrder="4" width="100" anonymous="true" id="3">
      <elementSeq exposures="1" val="60" id="3"/>
      <elementSeq exposures="2" val="61" id="3"/>
      <elementSeq exposures="3" val="62" id="3"/>
@@ -1123,7 +1124,8 @@
      <elementSeq exposures="13-15" val="13" id="12"/>
      <elementSeq exposures="16-18" val="16" id="12"/>
      <elementSeq exposures="19-21" val="19" id="12"/>
-     <elementSeq exposures="22" val="22" id="12"/>
+     <elementSeq exposures="22-24" val="22" id="12"/>
+     <elementSeq exposures="25" val="23" id="12"/>
     </column>
    </columns>
    <options>
@@ -1617,7 +1619,7 @@
        <collapsed val="false"/>
       </options>
       <attrs>
-       <transparency val="50" defaultValue="50"/>
+       <transparency val="85" defaultValue="50"/>
       </attrs>
      </module>
     </nodeslist>
